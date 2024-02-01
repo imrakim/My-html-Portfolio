@@ -7,18 +7,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="img/icon" href="/assets/Logo.png">
     <style>
-        .header ul{
-            display: block;
+        *{
+            margin: 0px 5px;
+            background-color:#111122;
+            color: white;
+            
         }
+       .header{
+        /* background-color: black; */
+        display: block;
+        margin-left: 0px;
+        padding: 15px;
+       }
         .header ul li{
            display: inline;
-        
         }
-        .header a{
+        .header li .menu{
             float: right;
-            font-size: 20px;
             padding: 10px;
+            font-size: 18px; 
+            color: white; 
+            text-decoration: none;
         }
+        .logo{
+            font-size: 30px;
+            font-weight: 600;
+            color: chartreuse;
+            padding-top: 13px;
+            padding-left: 0%;
+            font-size: 35px;
+        }
+        .header .btn .menu1{
+            float: right;
+            background-color: rgb(10, 216, 206);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+      .about_sec{
+           border: 1px solid white;
+           height: 700px;
+           width: 1300px;
+           align-items: center;
+          
+        } 
+        .rakim{
+            float: right;
+            position: relative;
+            margin-top: -15%;
+        }
+        h3{
+            padding-top:150px;
+        }
+        
+        
+        
 
 
 
@@ -35,21 +79,21 @@
 <body>
    <div class="header">
        <ul>
-        <img src="/assets/Logo2.png" alt="rakim">
-        <li><a href="home.html" target="_blank">Home</a></li>
-        <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="review.html" target="_blank">Review</a></li>
-        <li><a href="project.html" target="_blank">Project</a></li>
-        <li><a href="contact.html" target="_blank">Contact</a></li>
-        <li class="btn"><a href="#">Download CV</a></li>
+        <li class="logo">Rakim Ali</li>
+        <li class="btn"><a class="menu1"  href="#">Download CV</a></li>
+        <li><a class="menu" href="contact.html" target="_blank">Contact</a></li>
+        <li><a class="menu" href="project.html" target="_blank">Project</a></li>
+        <li><a class="menu" href="review.html" target="_blank">Review</a></li>
+        <li><a class="menu" href="about.html" target="_blank">About</a></li>
+        <li><a class="menu" href="home.html" target="_blank">Home</a></li>
     </ul>
    </div>
-    <div>
+    <div class="about_sec">
         <h3>Hello My Name Is</h3>
         <h1>Rakim Ali</h1>
+        <img class="rakim" src="/assets/rakim.png" alt="Rakim">
         <strong>I'm a web Developer</strong>
         <p>From Dhaka, Bangladesh. I'm a Front End Web developer who is passionate about making error-free websites. I am good at Front-End Developement and Search engine Optimization. I love to talk with you about your unique. </p>
-        <img src="R" alt="Rakim">
        <button>About</button>
     </div>
     <div>
